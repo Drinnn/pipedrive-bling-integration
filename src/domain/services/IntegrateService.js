@@ -97,7 +97,7 @@ class IntegrateService {
                 customer_name: deal.org_id.name,
                 value: deal.value,
                 error:
-                  "There must be at least one product in the Pipedrive's Lead",
+                  "There must be at least one product in the Pipedrive Lead",
               },
             ],
           });
