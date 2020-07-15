@@ -16,5 +16,5 @@ A project integrating Pipedrive and Bling! transforming leads/deals into Bling o
 
 
 ### Endpoints
-/deals -> Transforms every won lead/deal into a Bling! order (IMPORTANT NOTE: It's necessary at least one product inside the lead/deal)
-/orders -> Returns all orders in the database
+`POST /deals` -> Transforms every won lead/deal into a Bling! order (IMPORTANT NOTE: It's necessary at least one product inside the lead/deal)
+`GET /orders` -> Returns all orders in the database
